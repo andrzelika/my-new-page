@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        <title>Andrzelika</title>
+        <style type="text/css">
+            header, section, footer, aside, nav, article, figure, figcaption {
+                display: block;}
+            body {
+                min-width: 420px;
+                background-color: #242424;
+                background-image: url("static/blackboard.png");
+                background-position: center;
+                text-align: center;
+                color: #d5d5d5;
+                font-family: Georgia, Times, serif;}
+            .wrapper {
+                min-width: 400px;
+                max-width: 960px;
+                margin: 0px auto 20px auto;}
+            header {
+                margin: 0px 0px 0px 0px;
+                background-image: url("static/mini_banner.png");
+                background-position: center top;
+                height: 527px;
+                z-index: 2;}
+            nav {
+                position: fixed;
+                top: 10px;
+                left: 20%;
+                width: 60%;
+                padding: 10px;
+                margin: 0px;
+                z-index: 3;
+                clear: both;
+                height: 30px;}
+            a.button {
+                height: 36px;
+                background-image: url("static/menu_sprite.png");
+                text-indent: -9999px;
+                display: inline-block;}
+            a#about {
+                width: 111px;
+                background-position: -261px -16px;}
+            a#training {
+                width: 143px;
+                background-position: -16px -16px;}
+            a#contact {
+                width: 97px;
+                background-position: -496px -17px;}
+            a#about:hover {
+                background-position: -261px -63px;}
+            a#training:hover {
+                background-position: -16px -62px;}
+            a#contact:hover {
+                background-position: -496px -65px;}
+            a#about:active {
+                background-position: -261px -112px;}
+            a#training:active {
+                background-position: -16px -111px;}
+            a#contact:active {
+                background-position: -496px -111px;}
+            .content {
+                text-align: center;
+                left: 20%;
+                max-width: 940px;
+                margin: -150px 15% 0px 15%;
+            }
+            article {
+                max-width: 700px;
+                padding: 10px;
+                margin-bottom: 25px;
+            }
+            img.icons {
+                display: block;
+                margin: 0px auto;
+            }
+
+        </style>
+    </head>
+
+
+    <body>
+        <div class="wrapper">
+
+            <header>
+            <nav>
+                <a href="#about_link" class="button" id="about">About</a>
+                <a href="#training_link" class="button" id="training">Training</a>
+                <a href="#contact_link" class="button" id="contact">Contact</a>
+            </nav>
+            </header>
+
+            <div class="content">
+
+                <article>
+                    <img src="static/study.png" alt="student birette image" class="icons" id="about_link" />
+                    <p>Hi! I'm Andrzelika
+                    </p>
+                    <p>More information about me, my education and training will be added soon.
+                    </p>
+                </article>
+                <article>
+                    <img src="static/display.png" alt="display image" class="icons" id="training_link" />
+                    <p>Training. Training. Training.
+                    I would like to be full professional programmer. The employee you are dreaming of! Programm everything what I want and I have to. Become better and better. Everyday do something incredibly big and inconceivable to ordinary people. Do the magic! This fascinating programming magic.
+                    </p>
+                </article>
+                <article>
+                    <img src="static/mail.png" alt="mail image" class="icons" id="contact_link" />
+                    <p>
+                        e-mail: smiechfetka@gmail.com
+                    </p>
+                </article>
+
+            </div>
+
+        </div>
+
+        <footer>
+
+        </footer>
+    </body>
+
+</html>
